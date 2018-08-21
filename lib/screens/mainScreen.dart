@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_kit_starbuck/screens/homeScreen.dart';
+import 'package:flutter_ui_kit_starbuck/screens/mapScreen.dart';
 import 'package:flutter_ui_kit_starbuck/screens/payScreen.dart';
 
 class MainScreen extends StatefulWidget {
@@ -36,7 +37,7 @@ class _MainScreenState extends State<MainScreen>
         children: <Widget>[
           HomeScreen(),
           PayScreen(),
-          HomeScreen(),
+          MapScreen(),
           HomeScreen(),
         ],
       ),

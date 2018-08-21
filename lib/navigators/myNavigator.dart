@@ -8,8 +8,10 @@ class MyNavigator {
   static final routes = <String, WidgetBuilder>{
     '/main': (BuildContext context) => MainScreen(),
   };
-  
+
   static Future goToMain(BuildContext context) async {
-    Navigator.of(context).push(new AppPageRoute(builder: (BuildContext context) => new MainScreen()));
+    Navigator.of(context).pushAndRemoveUntil(
+        new AppPageRoute(builder: (BuildContext context) => new MainScreen()),
+        (Route<dynamic> route) => false);
   }
 }
