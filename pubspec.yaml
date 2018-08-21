@@ -39,6 +39,8 @@ flutter:
    - assets/images/starbuck_2.jpg
    - assets/images/starbuck_3.jpg
    - assets/images/starbuck_4.jpg
+   - assets/images/coupons.jpg
+   - assets/images/coupons2.jpg
 
   fonts:
   - family: Pier

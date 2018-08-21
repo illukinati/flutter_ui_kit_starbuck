@@ -46,9 +46,9 @@ class _MapScreenState extends State<MapScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xFFE2C287),
       body: SingleChildScrollView(
         child: Container(
-          padding: const EdgeInsets.only(top: 50.0),
           child: Column(
             children: <Widget>[
               InkWell(
@@ -87,6 +87,16 @@ class _MapScreenState extends State<MapScreen> {
                         new ItemCardIcon(
                           icon: Icons.store,
                           title: 'Starbuck 3',
+                          desc:
+                              '1 Chome-23 Takinogawa, Kita-ku, Tōkyō-to 114-0023',
+                        ),
+                        Container(
+                          height: 1.0,
+                          color: Colors.grey[200],
+                        ),
+                        new ItemCardIcon(
+                          icon: Icons.store,
+                          title: 'Starbuck 4',
                           desc:
                               '1 Chome-23 Takinogawa, Kita-ku, Tōkyō-to 114-0023',
                         ),

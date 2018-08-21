@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_kit_starbuck/screens/giftScreen.dart';
 import 'package:flutter_ui_kit_starbuck/screens/homeScreen.dart';
 import 'package:flutter_ui_kit_starbuck/screens/mapScreen.dart';
 import 'package:flutter_ui_kit_starbuck/screens/payScreen.dart';
@@ -38,7 +39,7 @@ class _MainScreenState extends State<MainScreen>
           HomeScreen(),
           PayScreen(),
           MapScreen(),
-          HomeScreen(),
+          GiftScreen(),
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(        
